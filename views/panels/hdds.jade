@@ -1,0 +1,13 @@
+.col-md-12
+    .panel.panel-primary
+        .panel-heading
+            h3.panel-title Dyski logiczne
+        .panel-body
+            ul.nav.nav-tabs(role='tablist')
+                li
+                    a(href="#mounted" role="tab" data-toggle="tab" aria-expanded='true')#mounted-tab Zamontowane
+                li
+                    a(href="#fdisk" role="tab" data-toggle="tab") Fdisk
+            .tab-content
+                .tab-pane.data-hdd#mounted
+                .tab-pane.data-fdisk#fdisk

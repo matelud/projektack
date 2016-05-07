@@ -1,0 +1,12 @@
+extends layout
+block content
+    .row
+        .col-md-10
+            h1#hostname <small>Połączony z </small>#{hostname}    #{hostaddr}
+        .col-md-2.right
+            a.btn.btn-primary(href='/login/logout') Wyloguj
+    .row.data-presentation
+        include panels/cpu-general-info
+        include panels/mem-general-info
+        include panels/network
+        include panels/hdds

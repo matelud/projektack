@@ -1,0 +1,73 @@
+body {
+  /*background-color: #1e1e1e;*/
+  /*color: #ABF8FF;*/
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+.margin-top {
+  margin-top: 20px;
+}
+
+h4 span {
+  margin-left: 10px;
+}
+
+.nav-tabs a .badge {
+  margin-left: 10px;
+}
+
+.data-memory-chart {
+  height: 100px;
+}
+
+.data-memory-chart .chart {
+  width: 80px;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  border: 2px solid rgba(0,0,0,0.5);
+  color: #FFF;
+}
+
+.data-memory-chart .fill {
+  background-color: #1b6d85;
+  height: 0;
+  width: 100%;
+}
+
+.data-memory-chart .nofill {
+  height: 100%;
+  width: 100%;
+}
+
+.data-memory-chart .perc {
+  position: relative;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.hdd-chart {
+  width: 210px;
+  height: 220px;
+}
+
+.ssid-parent {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.ssid-parent small {
+  font-weight: normal;
+}
+
+.ssid-child {
+  font-weight: bold;
+  display: none;
+}
+
+.ssid-child small {
+  font-weight: normal;
+}
